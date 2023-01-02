@@ -45,32 +45,20 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="col">
-                            <div class="card rounded-pill">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-start">
-                                        <div class="ms-2 me-auto">
-                                            <div class="fw-bold">Total Books</div>
-                                        </div>
-                                        <span class="badge bg-dark rounded-pill">800</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> --}}
                     </div>
                     @if($studentCount > 0)
                     <div class="mt-3 d-flex align-items-center">
                         <div class="col-3">
                             <span class="ps-2 me-2">Students %</span>
-                            <span class="badge rounded-pill border" style="background-color: #0678c8;">Male</span>
-                            <span class="badge rounded-pill border" style="background-color: #49a4fe;">Female</span>
+                            <span class="badge rounded-pill border" style="background-color: #2eb62c;">Male</span>
+                            <span class="badge rounded-pill border" style="background-color: #57c84d;">Female</span>
                         </div>
                         @php
                         $maleStudentPercentage = round(($maleStudentsBySession/$studentCount), 2) * 100;
-                        $maleStudentPercentageStyle = "style='background-color: #0678c8; width: $maleStudentPercentage%'";
+                        $maleStudentPercentageStyle = "style='background-color: #2eb62c; width: $maleStudentPercentage%'";
 
                         $femaleStudentPercentage = round((($studentCount - $maleStudentsBySession)/$studentCount), 2) * 100;
-                        $femaleStudentPercentageStyle = "style='background-color: #49a4fe; width: $femaleStudentPercentage%'";
+                        $femaleStudentPercentageStyle = "style='background-color: #57c84d; width: $femaleStudentPercentage%'";
                         @endphp
                         <div class="col-9 progress">
                             <div class="progress-bar progress-bar-striped" role="progressbar" {!!$maleStudentPercentageStyle!!} aria-valuenow="{{$maleStudentPercentage}}" aria-valuemin="0" aria-valuemax="100">{{$maleStudentPercentage}}%</div>
@@ -78,20 +66,6 @@
                           </div>
                     </div>
                     @endif
-                    <div class="row align-items-md-stretch mt-4">
-                        <div class="col">
-                            <div class="p-3 text-white bg-dark rounded-3">
-                                <h3>Welcome to Unifiedtransform!</h3>
-                                <p><i class="bi bi-emoji-heart-eyes"></i> Thanks for your love and support.</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="p-3 bg-white border rounded-3" style="height: 100%;">
-                                <h3>Manage school better</h3>
-                                <p class="text-end">with <i class="bi bi-lightning"></i> <a href="https://github.com/changeweb/Unifiedtransform" target="_blank" style="text-decoration: none;">Unifiedtransform</a> <i class="bi bi-lightning"></i>.</p>
-                            </div>
-                        </div>
-                    </div>
                     <div class="row mt-4">
                         <div class="col-lg-6">
                             <div class="card mb-3">

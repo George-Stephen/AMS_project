@@ -19,10 +19,8 @@ class SchoolClassFactory extends Factory
      *
      * @return array
      */
-    public function definition()
-    {
-        return [
-            //
+ public function definition(){
+     return[
         ];
     }
 }
