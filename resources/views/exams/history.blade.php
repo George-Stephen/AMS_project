@@ -53,7 +53,7 @@
                                                                         <div class="col">Belongs to: First Semester</div>
                                                                         <div class="col text-end">Starts: Jan 9th 2021 - Ends: Jan 15th 2021</div>
                                                                     </div>
-                                                                
+
                                                                 <p class="card-text">
                                                                     <span class="badge bg-secondary">Course: Math</span>
                                                                     <span class="badge bg-dark">Marks: 100</span>
@@ -84,7 +84,7 @@
                                                                 <div class="card-body">
                                                                 <div class="float-right">Tue, Jan 10th 2019 8:30 AM</div>
                                                                 <h4 class="card-title">Day 2 Sessions</h4>
-                                                                <p class="card-text">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                                                                <p class="card-text">Sign-up for the lessons and speakers that coincide with your course outline. Meet and greet with instructors.</p>
                                                                 </div>
                                                             </div>
                                                             </div>
